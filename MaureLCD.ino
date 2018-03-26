@@ -2,7 +2,7 @@
 
 void setup()
 {
-	Serial.begin(56700);
+	Serial.begin(57600);
 }
 
 void loop()
