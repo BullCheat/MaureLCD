@@ -2,7 +2,7 @@
 
 void setup()
 {
-	Serial.begin(115200);
+	Serial.begin(56700);
 }
 
 void loop()
@@ -14,8 +14,8 @@ void loop()
     // move cursor to index
     while(true) {
         char c = Serial.read();
-        if (c == -1) continue; // Pas de caractère lu, on retente
-        if (c == 0) break; // Caractère de stop : on sort de la fonction
+        if (c == -1) continue; // Pas de caractÃ¨re lu, on retente
+        if (c == 0) break; // CaractÃ¨re de stopÂ : on sort de la fonction
         // print c
     }
 }
